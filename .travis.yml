@@ -2,7 +2,7 @@ language: objective-c
 env:
  global:
    - "MODULE_NAME=ti.coremotion"
-   - "MODULE_VERSION=1.0.1"
+   - "MODULE_VERSION=1.1.0"
 before_install:
     - MODULE_ROOT=$PWD
 install:
