@@ -9,7 +9,7 @@ install:
     - curl -o hyperloop.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/hyperloop.sh
     - source hyperloop.sh
     - curl -o install.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/install.sh
-    - source install.sh -s "--branch 3_3_X"
+    - source install.sh -s 3.3.0.GA
 script: 
     - curl -o script.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/script-hyperloop.sh
     - source script.sh
